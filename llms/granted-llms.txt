@@ -1,0 +1,21 @@
+# Granted
+
+> Granted is an AI-plus-human healthcare navigation service that helps consumers reduce medical bills and manage health insurance. It detects billing errors, finds financial-assistance programs, negotiates discounts, and manages claims across 1,300+ insurers and patient portals on a success-based model (free to use; pay only on savings). Backed by Forerunner Ventures. Granted publishes a consumer app, not a public developer API.
+
+## Product
+- [Granted (home)](https://grantedhealth.com): Reduce medical bills and navigate health insurance with AI and human advocates.
+- [Get started / Log in](https://app.grantedhealth.com/get-started): Consumer sign-up and app access.
+- [Granted Health (iOS App Store)](https://apps.apple.com/us/app/granted-health/id6473135975): Mobile app.
+
+## Company
+- [Blog](https://grantedhealth.com/blog): Company updates and healthcare-navigation content.
+- [Careers](https://grantedhealth.com/careers): Open roles.
+- [Contact](https://grantedhealth.com/contact-us): Support and general contact.
+
+## Security & Legal
+- [Security & Trust](https://grantedhealth.com/security): SOC 2 certified; HIPAA-aligned; AES-256 at rest, TLS 1.2+ in transit; Vanta monitoring; AWS Nitro Enclaves.
+- [Privacy Policy](https://grantedhealth.com/legal/privacy)
+- [Terms of Service](https://grantedhealth.com/legal/terms)
+
+## Notes
+- No public API, developer portal, OpenAPI/AsyncAPI specification, SDKs, MCP server, or webhook surface was found (checked /.well-known/*, /llms.txt — all 404). This file is generated from the API Evangelist catalog profile; if Granted publishes a developer surface, this profile will be enriched.

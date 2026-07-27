@@ -1,0 +1,29 @@
+generated: '2026-07-19'
+method: searched
+probe: false
+source: https://grantedhealth.com/security
+url: https://grantedhealth.com/security
+title: Your patient data, properly protected
+certifications:
+- SOC 2
+compliance_alignment:
+- HIPAA
+security_practices:
+- Encryption at rest (AES-256)
+- Encryption in transit (TLS 1.2+)
+- Role-based access controls with MFA
+- Continuous monitoring via Vanta
+- Secure credential handling via AWS Nitro Enclaves
+- HIPAA authorization required before patient data use
+evidence:
+- source: https://grantedhealth.com/security
+  keywords:
+  - soc 2 certified
+  - hipaa
+  - vanta
+  - aes-256
+notes: SOC 2 certified with independently audited controls; states alignment with
+  HIPAA standards (not a full HIPAA compliance certification). No public vulnerability
+  disclosure / bug bounty program or security.txt found. Verified by direct fetch of
+  the /security page (probe-security-programs.py returned none because the page is
+  JavaScript-rendered).
