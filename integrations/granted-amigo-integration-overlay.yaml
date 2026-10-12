@@ -1,0 +1,19 @@
+# DERIVED by build-integration-preconfigs.py (roadmap#949). Overlay on the PARTNER's contract:
+# where amigo's enum names granted, and what that value is.
+overlay: 1.0.0
+info:
+  title: granted as a processor-connection in amigo's contract
+  version: 1.0.0
+extends: https://raw.githubusercontent.com/api-evangelist/amigo/refs/heads/main/openapi/amigo-integrations-api-openapi.yml
+actions:
+- target: $.components.schemas.IntegrationApprovalResponse.properties.status
+  update:
+    x-apievangelist-integration:
+      values:
+        granted:
+          provider: granted
+          relationship: processor-connection
+          evidence: https://github.com/api-evangelist/amigo/blob/main/openapi/amigo-integrations-api-openapi.yml
+      method: derived
+      generated: '2026-10-12'
+      generator: build-integration-preconfigs.py

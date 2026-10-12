@@ -1,0 +1,19 @@
+edges:
+- partner_name: amigo
+  partner: amigo
+  partner_match: domain
+  type: contract
+  channel: partner-built
+  relationship: processor-connection
+  direction: partner-built
+  evidence: https://github.com/api-evangelist/amigo/blob/main/openapi/amigo-integrations-api-openapi.yml
+  contract_reference:
+    repo: amigo
+    spec_file: amigo-integrations-api-openapi.yml
+    value: granted
+    property: schemas.IntegrationApprovalResponse.status
+    detected_by: detect-payment-method-edges.py
+    detected: '2026-10-12'
+generated: '2026-10-12'
+method: searched
+checked: []
